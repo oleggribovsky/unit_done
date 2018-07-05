@@ -1,0 +1,33 @@
+DEFECT 1
+
+Calculator: "cos" function is calculated incorrectly
+Input: 0
+Expected: 1
+Actual: 0.0
+
+DEFECT 2
+
+Calculator: "ctg" function is calculated incorrectly
+Input: P/4
+Expected: 1
+Actual: 0.6557942026326724
+
+DEFECT 3
+
+Calculator: "mult" (double) function is calculated incorrectly
+Input1: 2.2
+Input2: -4
+Expected: -8.8
+Actual: -9
+
+Input1: 7.345
+Input2: 2
+Expected: 14.69
+Actual: 14
+
+DEFECT 4
+
+Calculator: "tg" function is calculated incorrectly
+Input: 0
+Expected: 0
+Actual: NaN
